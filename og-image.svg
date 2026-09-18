@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F5ECD9"/>
+  <g transform="translate(74 35) scale(3.15)">
+    <path d="M9 42h49l-4 18c-1 5-5 8-10 8H23c-5 0-9-3-10-8L9 42Z" fill="#1F9D3D" stroke="#0E5E21" stroke-width="3"/>
+    <path d="M5 44H1c-5 0-5 8 0 8h10M60 44h5c5 0 5 8 0 8H56" fill="none" stroke="#1F9D3D" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="34" cy="42" rx="25" ry="7" fill="#F5ECD9" stroke="#0E5E21" stroke-width="3"/>
+    <path d="M7 2h20c7 0 12 5 12 12s-5 12-12 12h-8l-8 6 2-7C8 23 5 19 5 14 5 7 8 2 15 2Z" fill="#F0C040"/>
+    <path d="M29 6h20c7 0 12 5 12 12s-5 12-12 12h-7l8 7-3-9c-5-1-8-5-8-10 0-7 5-12 12-12Z" fill="#1F9D3D"/>
+    <path d="M19 19h20c7 0 12 5 12 12s-5 12-12 12h-5l-2 9-4-9c-7 0-12-5-12-12s5-12 12-12Z" fill="#ED5A4A"/>
+  </g>
+  <text x="350" y="165" fill="#0E5E21" font-family="Arial, sans-serif" font-size="78" font-weight="700">munchii</text>
+  <text x="72" y="390" fill="#1A2A1F" font-family="Arial, sans-serif" font-size="76" font-weight="700">What's for dinner?</text>
+  <text x="77" y="478" fill="#5B6660" font-family="Arial, sans-serif" font-size="30">All your saved recipes from friends and chefs in one place.</text>
+</svg>

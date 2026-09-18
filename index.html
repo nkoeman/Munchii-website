@@ -3,52 +3,55 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Munchii — Cook inspired. Share what you make.</title>
-<meta name="description" content="Munchii turns the recipes you actually cook into a feed worth following. Scan a cookbook page, say a recipe out loud, or start from what's in your fridge. Free on iPhone." />
-<meta property="og:title" content="Munchii — Cook inspired." />
-<meta property="og:description" content="Scan, speak or write a recipe. Cook it. Share it with people who cook like you." />
-<meta property="og:url" content="https://www.munchii.app" />
-<link rel="canonical" href="https://www.munchii.app" />
+<title>Munchii — What's for dinner?</title>
+<meta name="description" content="All your saved recipes from friends and chefs in one place. Munchii helps you decide what's for dinner. Free on iPhone." />
+<meta property="og:title" content="Munchii — What's for dinner?" />
+<meta property="og:description" content="All your saved recipes from friends and chefs in one place." />
+<meta property="og:url" content="https://munchii.app" />
+<meta property="og:image" content="https://munchii.app/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://munchii.app" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet" />
-<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+<link rel="icon" href="assets/favicon-64.png" sizes="64x64" type="image/png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 <link rel="stylesheet" href="site.css" />
 </head>
 <body>
 
 <header class="nav">
   <div class="wrap nav-in">
-    <a href="#top" class="wm" aria-label="Munchii home">Munchii</a>
+    <a href="#top" class="brand" aria-label="Munchii home"><img src="assets/munchii-mark.png" alt="" />munchii</a>
     <nav class="nav-links" aria-label="Main">
-      <a href="#features">Features</a>
+      <a href="#features">What it does</a>
       <a href="#how">How it works</a>
       <a href="#screens">Screenshots</a>
       <a href="#faq">FAQ</a>
       <a href="support.html">Support</a>
     </nav>
-    <!-- TODO: App Store URL -->
-    <a class="btn btn-app" href="#"><svg width="17" height="17" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M17.05 12.04c-.03-2.83 2.31-4.18 2.41-4.25-1.32-1.93-3.37-2.19-4.1-2.22-1.74-.18-3.4 1.03-4.29 1.03-.89 0-2.25-1-3.71-.98-1.91.03-3.67 1.11-4.65 2.82-1.98 3.44-.51 8.53 1.43 11.33.95 1.37 2.07 2.9 3.54 2.85 1.42-.06 1.96-.92 3.68-.92 1.72 0 2.2.92 3.71.89 1.53-.03 2.5-1.39 3.43-2.77 1.08-1.59 1.52-3.14 1.55-3.22-.03-.01-2.97-1.14-3-4.56zM14.4 4.13c.78-.95 1.32-2.27 1.17-3.59-1.13.05-2.5.76-3.31 1.7-.72.83-1.36 2.18-1.19 3.47 1.26.1 2.55-.64 3.33-1.58z"/></svg><span><span class="sub">Download on the</span><span class="big">App Store</span></span></a>
+    <details class="mobile-nav"><summary aria-label="Open navigation"><span></span></summary><nav class="mobile-menu" aria-label="Mobile"><a href="#features">What it does</a><a href="#how">How it works</a><a href="#screens">Screenshots</a><a href="#faq">FAQ</a><a href="support.html">Support</a></nav></details>
+    <a class="btn btn-app" href="mailto:support@munchii.app?subject=Munchii%20iPhone%20launch"><span><span class="sub">Get Munchii on</span><span class="big">iPhone</span></span></a>
   </div>
 </header>
 
 <main>
 <a id="top"></a>
 <section class="hero">
-  <div class="blobs" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div></div>
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <div class="eyebrow">Now on iPhone</div>
-      <h1>Cook <span class="it">inspired.</span><br />Share what you make.</h1>
-      <p class="lead" style="margin-top:22px">Munchii turns the recipes you actually cook into a feed worth following. Scan a cookbook page, talk a recipe out loud, or start from what's in your fridge — then share it with the people who cook like you.</p>
+      <h1>Hesitating about what's for dinner?<br /><span class="accent">Munchii has your back!</span></h1>
+      <p class="lead" style="margin-top:22px">All your saved recipes from friends and chefs in one place.</p>
       <div class="badges" id="download">
-        <!-- TODO: App Store URL -->
-        <a class="btn btn-app" href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M17.05 12.04c-.03-2.83 2.31-4.18 2.41-4.25-1.32-1.93-3.37-2.19-4.1-2.22-1.74-.18-3.4 1.03-4.29 1.03-.89 0-2.25-1-3.71-.98-1.91.03-3.67 1.11-4.65 2.82-1.98 3.44-.51 8.53 1.43 11.33.95 1.37 2.07 2.9 3.54 2.85 1.42-.06 1.96-.92 3.68-.92 1.72 0 2.2.92 3.71.89 1.53-.03 2.5-1.39 3.43-2.77 1.08-1.59 1.52-3.14 1.55-3.22-.03-.01-2.97-1.14-3-4.56zM14.4 4.13c.78-.95 1.32-2.27 1.17-3.59-1.13.05-2.5.76-3.31 1.7-.72.83-1.36 2.18-1.19 3.47 1.26.1 2.55-.64 3.33-1.58z"/></svg><span><span class="sub">Download on the</span><span class="big">App Store</span></span></a>
+        <a class="btn btn-app" href="mailto:support@munchii.app?subject=Munchii%20iPhone%20launch"><span><span class="sub">Get Munchii on</span><span class="big">iPhone</span></span></a>
         <a class="btn btn-ghost" href="#how">See how it works</a>
       </div>
       <div class="trust">
-        <span><i class="dot"></i>Free to download</span>
-        <span><i class="dot"></i>No ads in your feed</span>
+        <span><i class="dot"></i>Free</span>
+        <span><i class="dot"></i>No ads</span>
         <span><i class="dot"></i>English &amp; Dutch</span>
         <span><i class="dot"></i>iPhone, iOS 17+</span>
       </div>
@@ -61,7 +64,7 @@
           <div class="food sc-hero"></div>
           <div class="sc-sheet">
             <span class="pill">Vegetarian</span> <span class="pill y">Weeknight</span>
-            <div style="font-family:var(--serif);font-size:1.5em;line-height:1.08;margin:8px 0 6px">Miso butter <em class="it">mushrooms</em></div>
+            <div style="font-family:var(--display);font-weight:700;font-size:1.5em;line-height:1.08;margin:8px 0 6px">Miso butter mushrooms</div>
             <div class="sc-sub">@lina_cooks · 142 likes</div>
             <div style="display:flex;justify-content:space-between;background:#fff;border-radius:11px;padding:9px 4px;margin:9px 0">
               <div class="stat"><b>30</b><em>min</em></div><div class="stat"><b>7</b><em>items</em></div><div class="stat"><b>2</b><em>serves</em></div><div class="stat"><b>4.8</b><em>rating</em></div>
@@ -85,11 +88,11 @@
               <div class="sc-acts"><span class="hp" style="background:var(--red)"></span><span class="hp" style="background:var(--ink);opacity:.3"></span><span class="pill" style="margin-left:auto">Saved</span></div>
             </div>
             <div class="sc-card">
-              <div class="sc-row"><span class="av" style="background:radial-gradient(120% 110% at 30% 25%,#F08A6E,#E64C3F)"></span><span><span class="sc-nm">tom.eats</span><br /><span class="sc-sub">Lunch · 4h</span></span></div>
+              <div class="sc-row"><span class="av alt"></span><span><span class="sc-nm">tom.eats</span><br /><span class="sc-sub">Lunch · 4h</span></span></div>
               <div class="food r sc-img"></div>
             </div>
           </div>
-          <div class="tbar"><span><i class="on"></i><em class="on">Feed</em></span><span><i></i><em>Library</em></span><span><i></i><em>Generate</em></span><span><i></i><em>You</em></span></div>
+          <div class="tbar"><span><i class="on"></i><em class="on">Friends</em></span><span><i></i><em>Library</em></span><span><i></i><em>Share</em></span><span><i></i><em>You</em></span></div>
         </div>
       </div>
     </div>
@@ -100,39 +103,39 @@
   <div class="wrap">
     <div class="sec-head">
       <div class="eyebrow">Why Munchii</div>
-      <h2>Every recipe you cook,<br /><span class="it">saved properly.</span></h2>
-      <p class="lead" style="margin-top:18px">Most good recipes live somewhere awkward — a screenshot, a scribbled card, your head. Munchii gives them one home, in three taps or fewer.</p>
+      <h2>Everything you want to cook,<br /><span class="accent">in one place.</span></h2>
+      <p class="lead" style="margin-top:18px">Your saves, your friends' dinners and the Munchii chefs you follow. All one tap from the pan.</p>
     </div>
     <div class="cards">
       <article class="card">
-        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1A8A4F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
-        <h3>Scan any recipe</h3>
-        <p>Point your camera at a recipe card, a cookbook page or a screenshot. Munchii reads the ingredients and steps and writes them up as a clean, cookable recipe — you just check it.</p>
+        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1F9D3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+        <h3>Discover what friends eat</h3>
+        <p>See what people you know actually made this week, with the recipe one tap away. No strangers, no sponsored posts, no thousand-word preamble.</p>
       </article>
       <article class="card">
-        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1A8A4F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 12a7 7 0 0 0 14 0M12 19v3"/></svg></div>
-        <h3>Say it out loud<span class="tagnew">NEW</span></h3>
-        <p>Talk through a recipe the way you'd tell a friend. We transcribe it, split it into steps and pull out the ingredients — with anything unclear flagged for you to fix.</p>
+        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1F9D3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 12a7 7 0 0 0 14 0M12 19v3"/></svg></div>
+        <h3>Easily save recipes to menu category</h3>
+        <p>Save a recipe and file it straight into a menu — Weeknight, Weekend, Sunday roast. Everything lands in one library you can actually search.</p>
       </article>
       <article class="card">
-        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1A8A4F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6m0 6v6m9-9h-6m-6 0H3m13.5-6.5L15 6m-6 6-1.5 1.5m9 0L18 15m-12-9L4.5 4.5"/></svg></div>
-        <h3>Cook from your fridge</h3>
-        <p>Tell Munchii what you've actually got in. It suggests things you can make tonight, tuned to the cuisines and cooking level you set up front.</p>
+        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1F9D3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6m0 6v6m9-9h-6m-6 0H3m13.5-6.5L15 6m-6 6-1.5 1.5m9 0L18 15m-12-9L4.5 4.5"/></svg></div>
+        <h3>Save time recording ingredients &amp; method<span class="tagnew">NEW</span></h3>
+        <p>Point your camera at a cookbook page, or talk the recipe through the way you'd tell a friend. Munchii writes it up and flags anything it wasn't sure about.</p>
       </article>
       <article class="card">
-        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1A8A4F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg></div>
-        <h3>A feed of real home cooks</h3>
-        <p>No sponsored posts, no thousand-word preamble. Just what the people you follow cooked tonight, and the recipe behind it — one tap away.</p>
-      </article>
-      <article class="card">
-        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1A8A4F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12v17l-6-4-6 4z"/></svg></div>
-        <h3>Menus that stay tidy</h3>
-        <p>Group recipes into menus — Weeknight, Weekend, Sunday roast — so the thing you want is where you left it. Each menu shows what's inside at a glance.</p>
-      </article>
-      <article class="card">
-        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1A8A4F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13a7 7 0 1 1 14 0v1H5z"/><path d="M3 18h18M3 21h18"/></svg></div>
-        <h3>Cook mode</h3>
+        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1F9D3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg></div>
+        <h3>Just follow the steps</h3>
         <p>Big type, one step at a time, timers exactly where they matter. Built for a phone propped against the kettle with flour on your hands.</p>
+      </article>
+      <article class="card">
+        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1F9D3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12v17l-6-4-6 4z"/></svg></div>
+        <h3>Share with friends</h3>
+        <p>Send a recipe to someone and they get the recipe, not a screenshot of one. It opens for anyone, with or without the app.</p>
+      </article>
+      <article class="card">
+        <div class="ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#1F9D3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13a7 7 0 1 1 14 0v1H5z"/><path d="M3 18h18M3 21h18"/></svg></div>
+        <h3>Creativity with perishables <span class="dev-label">(in development)</span></h3>
+        <p>Tell Munchii what you've got in the fridge and it suggests something you can make tonight.</p>
       </article>
     </div>
   </div>
@@ -142,12 +145,12 @@
   <div class="wrap">
     <div class="sec-head">
       <div class="eyebrow">How it works</div>
-      <h2>Three steps from<br /><span class="it">idea</span> to dinner.</h2>
+      <h2>Three steps from<br /><span class="accent">“no idea”</span> to dinner.</h2>
     </div>
     <div class="steps">
-      <div class="step"><h3>Capture it</h3><p>Scan a photo, record your voice, or type it yourself. All three land in the same recipe editor, so nothing feels bolted on.</p></div>
-      <div class="step"><h3>Check it</h3><p>We structure the ingredients and steps and flag anything we weren't sure about. You fix it in seconds — or save it as a draft and finish later.</p></div>
-      <div class="step"><h3>Cook &amp; share</h3><p>Follow it in cook mode, then post the result. Your friends get the recipe, not just the photo.</p></div>
+      <div class="step"><h3>Save recipes from friends and chefs</h3><p>Anything you want to cook: a recipe a friend posted, a dish from a Munchii chef, a photo of a cookbook page, or one you talk through yourself. It all lands in the same library.</p></div>
+      <div class="step"><h3>Quickly decide what's for dinner</h3><p>Open your library, look at what your friends made this week, and pick something in a couple of minutes.</p></div>
+      <div class="step"><h3>Cook &amp; share with friends</h3><p>Follow it step by step. Made something good? Take a photo and post it as it is. Messy plates welcome.</p></div>
     </div>
   </div>
 </section>
@@ -155,7 +158,7 @@
 <section id="screens">
   <div class="wrap sec-head">
     <div class="eyebrow">Inside the app</div>
-    <h2>Designed to be used<br />with <span class="it">one hand.</span></h2>
+    <h2>Built for a phone<br /><span class="accent">on the kitchen counter.</span></h2>
   </div>
   <div class="gallery">
     <figure class="shot">
@@ -173,40 +176,37 @@
           <div style="display:flex;gap:7px;align-items:center;margin-bottom:7px"><span class="food c" style="width:30px;height:30px;border-radius:8px"></span><span><b>Green shakshuka</b><br /><span class="sc-sub">@tom.eats · 25 min</span></span></div>
           <div style="display:flex;gap:7px;align-items:center"><span class="food r" style="width:30px;height:30px;border-radius:8px"></span><span><b>Spicy peanut noodles</b><br /><span class="sc-sub">@sarakitchen · 15 min</span></span></div>
         </div>
-        <div class="tbar"><span><i></i><em>Feed</em></span><span><i class="on"></i><em class="on">Library</em></span><span><i></i><em>Generate</em></span><span><i></i><em>You</em></span></div>
+        <div class="tbar"><span><i></i><em>Friends</em></span><span><i class="on"></i><em class="on">Library</em></span><span><i></i><em>Share</em></span><span><i></i><em>You</em></span></div>
       </div></div>
       <figcaption>Your library, sorted into menus</figcaption>
     </figure>
 
     <figure class="shot">
-      <div class="phone" aria-hidden="true"><div class="screen" style="background:#fff"><div class="notch"></div>
+      <div class="phone" aria-hidden="true"><div class="screen"><div class="notch"></div>
         <div class="sbar"><span>9:41</span><span>▮▮▮</span></div>
-        <div class="sc-pad" style="text-align:center">
-          <div style="font-family:var(--serif);font-size:1.9em;line-height:1.05;margin:8px 0 4px">Cook <em class="it">inspired</em></div>
-          <div class="sc-sub" style="margin-bottom:12px">Tell me what you've got, I'll cook up ideas</div>
-        </div>
-        <div class="sc-pad" style="text-align:left">
-          <div class="bubble">Hi! What fresh products do you have at home right now?</div>
-          <div class="bubble me">Spinach, eggs, lemon, half an onion</div>
-          <div class="bubble">Nice! What kind of kitchen are you feeling tonight?</div>
-          <div class="chips"><span class="chip">Italian</span><span class="chip on">Asian</span><span class="chip">Comfort</span><span class="chip">Quick</span></div>
-          <div style="display:flex;gap:8px;align-items:center;border:1.5px solid var(--green);border-radius:12px;padding:7px;margin-top:9px;background:#fff">
-            <span class="food r" style="width:30px;height:30px;border-radius:8px"></span>
-            <span style="flex:1"><b>Spinach &amp; egg ramen</b><br /><span class="sc-sub">20 min · 3 of 4 ingredients ✓</span></span>
-            <span class="pill" style="background:var(--green);color:#fff">COOK</span>
+        <div class="sc-pad">
+          <div class="sc-h">friends</div>
+          <div class="sc-card">
+            <div class="sc-row"><span class="av"></span><span><span class="sc-nm">lina_cooks</span><br /><span class="sc-sub">Tonight's dinner · 2h</span></span></div>
+            <div class="recipe-preview"><b>Miso butter mushrooms</b><span>30 min · Weeknight</span></div>
+            <div class="sc-acts"><span class="hp" style="background:var(--red)"></span><span class="sc-sub">142 likes</span><span class="pill" style="margin-left:auto">Saved</span></div>
+          </div>
+          <div class="sc-card">
+            <div class="sc-row"><span class="av alt"></span><span><span class="sc-nm">tom.eats</span><br /><span class="sc-sub">Made yesterday</span></span></div>
+            <div class="recipe-preview alt"><b>Green shakshuka</b><span>25 min · Serves 2</span></div>
           </div>
         </div>
-        <div class="tbar"><span><i></i><em>Feed</em></span><span><i></i><em>Library</em></span><span><i class="on"></i><em class="on">Generate</em></span><span><i></i><em>You</em></span></div>
+        <div class="tbar"><span><i class="on"></i><em class="on">Friends</em></span><span><i></i><em>Library</em></span><span><i></i><em>Share</em></span><span><i></i><em>You</em></span></div>
       </div></div>
-      <figcaption>Ideas from what's already in the fridge</figcaption>
+      <figcaption>What your friends cooked this week</figcaption>
     </figure>
 
     <figure class="shot">
-      <div class="phone" aria-hidden="true"><div class="screen" style="background:var(--green)"><div class="notch"></div>
+      <div class="phone" aria-hidden="true"><div class="screen" style="background:var(--green-deep)"><div class="notch"></div>
         <div class="sbar" style="color:#fff"><span>9:41</span><span>▮▮▮</span></div>
         <div style="padding:14px 14px 0;color:#fff;text-align:center">
           <div style="font-size:.9em;opacity:.85;display:flex;align-items:center;justify-content:center;gap:6px"><span style="width:7px;height:7px;border-radius:50%;background:var(--red);display:inline-block"></span>Recording</div>
-          <div style="font-family:var(--serif);font-style:italic;font-size:3.1em;line-height:1;margin:16px 0 6px">0:48</div>
+          <div style="font-family:var(--display);font-weight:800;font-size:3.1em;line-height:1;margin:16px 0 6px">0:48</div>
           <div style="display:flex;align-items:center;justify-content:center;gap:2.5px;height:52px;margin:14px 0">
             <span style="width:2.5px;height:14px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:30px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:46px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:24px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:52px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:34px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:18px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:40px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:50px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:26px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:15px;background:#fff;border-radius:9px"></span><span style="width:2.5px;height:36px;background:#fff;border-radius:9px"></span>
           </div>
@@ -227,38 +227,38 @@
         <div class="sbar"><span>9:41</span><span>▮▮▮</span></div>
         <div class="sc-pad">
           <div style="display:flex;align-items:center;gap:7px;margin:4px 0 10px"><span class="food" style="width:34px;height:34px;border-radius:50%"></span><span><b>@lina_cooks</b><br /><span class="sc-sub">48 recipes · 1.2k followers</span></span></div>
-          <div style="font-family:var(--serif);font-style:italic;color:var(--green);font-size:1.5em;line-height:1">Lina</div>
+          <div style="font-family:var(--display);font-weight:700;color:var(--green-deep);font-size:1.5em;line-height:1">Lina</div>
           <div class="sc-sub" style="margin:4px 0 9px">Cozy weeknight cook · Amsterdam</div>
-          <div style="display:flex;gap:5px;margin-bottom:9px"><span class="pill" style="background:var(--green);color:#fff;padding:5px 12px">Edit profile</span><span class="chip">Share</span></div>
+          <div style="display:flex;gap:5px;margin-bottom:9px"><span class="pill" style="background:var(--green-deep);color:#fff;padding:5px 12px">Edit profile</span><span class="chip">Share</span></div>
           <div class="grid3"><div class="food"></div><div class="food g"></div><div class="food r"></div><div class="food c"></div><div class="food r"></div><div class="food"></div><div class="food g"></div><div class="food c"></div><div class="food"></div></div>
         </div>
-        <div class="tbar"><span><i></i><em>Feed</em></span><span><i></i><em>Library</em></span><span><i></i><em>Generate</em></span><span><i class="on"></i><em class="on">You</em></span></div>
+        <div class="tbar"><span><i></i><em>Friends</em></span><span><i></i><em>Library</em></span><span><i></i><em>Share</em></span><span><i class="on"></i><em class="on">You</em></span></div>
       </div></div>
-      <figcaption>A profile that's a real cookbook</figcaption>
+      <figcaption>Your profile is your cookbook</figcaption>
     </figure>
   </div>
 </section>
 
 <section class="on-cream-soft">
   <div class="wrap">
-    <div class="sec-head"><div class="eyebrow">The difference</div><h2>Less scrolling.<br />More <span class="it">cooking.</span></h2></div>
+    <div class="sec-head"><div class="eyebrow">The difference</div><h2>Less scrolling.<br />More <span class="accent">cooking.</span></h2></div>
     <div class="compare">
       <div class="cmp bad">
-        <h3>Recipe sites &amp; blogs</h3>
+        <h3>Saved posts &amp; recipe sites</h3>
         <ul>
-          <li><span class="mk">✕</span><span>A life story between you and the ingredients list.</span></li>
-          <li><span class="mk">✕</span><span>Ads and pop-ups while your hands are covered in dough.</span></li>
-          <li><span class="mk">✕</span><span>Written by strangers optimising for search, not dinner.</span></li>
-          <li><span class="mk">✕</span><span>Your own recipes stay stuck in screenshots and notes.</span></li>
+          <li><span class="mk">✕</span><span>Hundreds of saved posts you never find again.</span></li>
+          <li><span class="mk">✕</span><span>Suggestions from an algorithm, not from people you know.</span></li>
+          <li><span class="mk">✕</span><span>A life story and two pop-ups between you and the ingredients.</span></li>
+          <li><span class="mk">✕</span><span>Posting your own dinner feels like it has to look good first.</span></li>
         </ul>
       </div>
       <div class="cmp good">
         <h3>Munchii</h3>
         <ul>
-          <li><span class="mk">✓</span><span>Straight to the ingredients and steps, every time.</span></li>
-          <li><span class="mk">✓</span><span>No ads in your feed. Cook mode keeps the screen awake and clean.</span></li>
-          <li><span class="mk">✓</span><span>Recipes from people you actually know and follow.</span></li>
-          <li><span class="mk">✓</span><span>Scan, speak or type — your recipes finally live in one place.</span></li>
+          <li><span class="mk">✓</span><span>One library you can search, sorted into your own menus.</span></li>
+          <li><span class="mk">✓</span><span>Dishes your friends actually cooked, recipe one tap away.</span></li>
+          <li><span class="mk">✓</span><span>Straight to the ingredients and steps. No ads, screen stays awake.</span></li>
+          <li><span class="mk">✓</span><span>Share a dish as it is. It doesn't need to look like a magazine.</span></li>
         </ul>
       </div>
     </div>
@@ -267,16 +267,18 @@
 
 <section id="faq" class="on-white">
   <div class="wrap">
-    <div class="sec-head"><div class="eyebrow">Questions</div><h2>Good to <span class="it">know.</span></h2></div>
+    <div class="sec-head"><div class="eyebrow">Questions</div><h2>Good to <span class="accent">know.</span></h2></div>
     <div class="faq">
-      <details open><summary>Is Munchii free?</summary><p>Yes. Downloading Munchii and the core features — saving recipes, scanning, voice capture, menus, cook mode and the social feed — are free. If we ever add a paid tier, existing features stay as they are and we'll say so clearly in advance.</p></details>
+      <details open><summary>Is Munchii free?</summary><p>Yes. Downloading Munchii and the core features — saving recipes, scanning, voice capture, menus, cook mode and seeing what friends cooked — are free. If we ever add a paid tier, existing features stay as they are and we'll say so clearly in advance.</p></details>
+      <details><summary>What are Munchii chefs?</summary><p>Munchii chefs are super users who cook often and share their own versions of the dishes they like.</p></details>
+      <details><summary>Is Munchii Dutch?</summary><p>Yes. Munchii is built in Amsterdam and starts in the Netherlands, in English and Dutch.</p></details>
       <details><summary>Do I need an account?</summary><p>You'll need one to save and share recipes — sign in with Apple, Google or email. You can also open demo mode first to look around without signing up.</p></details>
       <details><summary>How well does recipe scanning work?</summary><p>Printed recipes — cookbook pages, recipe cards, screenshots — work best. Handwriting often works too, though results vary with the handwriting. Either way, Munchii shows you the extracted recipe and flags anything it wasn't confident about so you can correct it before saving.</p></details>
       <details><summary>What happens to my photos and voice recordings?</summary><p>They're used to create the recipe you asked for, and processing may happen on our servers or via a third-party AI provider. We don't sell your personal data. Full detail, including retention periods, is in the <a href="privacy.html">Privacy Policy</a>.</p></details>
       <details><summary>Who can see my recipes?</summary><p>You choose per recipe. Drafts are always private to you, and unfinished drafts you don't touch for 30 days are cleared automatically. You can delete any recipe, or your whole account, at any time.</p></details>
       <details><summary>Which languages does Munchii support?</summary><p>English and Dutch at launch, selectable during onboarding and changeable any time in settings.</p></details>
-      <details><summary>Is there an Android version?</summary><p>Not yet. Munchii is iPhone-only for now (iOS 17 and later). Email <a href="mailto:hello@munchii.app">hello@munchii.app</a> and we'll let you know when that changes.</p></details>
-      <details><summary>How do I report a recipe or a person?</summary><p>Tap the ••• menu on any recipe, comment or profile and choose Report. We review reports against our <a href="community.html">Community Guidelines</a>, usually within two business days.</p></details>
+      <details><summary>Is there an Android version?</summary><p>Not yet. Munchii is iPhone-only for now (iOS 17 and later). Email <a href="mailto:support@munchii.app">support@munchii.app</a> and we'll let you know when that changes.</p></details>
+      <details><summary>How do I report a recipe or a person?</summary><p>Tap the ••• menu on any recipe, comment or profile and choose Report. We review reports against our <a href="community.html">Recipe &amp; Safety Guidelines</a>, usually within two business days.</p></details>
     </div>
   </div>
 </section>
@@ -284,11 +286,10 @@
 <section>
   <div class="wrap">
     <div class="cta">
-      <h2>Your next dinner is<br />already in <span class="it">here.</span></h2>
-      <p class="lead">Free on the App Store. Scan your first recipe in under a minute.</p>
+      <h2>So, what's for dinner tonight?</h2>
+      <p class="lead">Free on the App Store. Save your first recipe in under a minute.</p>
       <div class="badges">
-        <!-- TODO: App Store URL -->
-        <a class="btn btn-app" href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="#1A1F1B" aria-hidden="true"><path d="M17.05 12.04c-.03-2.83 2.31-4.18 2.41-4.25-1.32-1.93-3.37-2.19-4.1-2.22-1.74-.18-3.4 1.03-4.29 1.03-.89 0-2.25-1-3.71-.98-1.91.03-3.67 1.11-4.65 2.82-1.98 3.44-.51 8.53 1.43 11.33.95 1.37 2.07 2.9 3.54 2.85 1.42-.06 1.96-.92 3.68-.92 1.72 0 2.2.92 3.71.89 1.53-.03 2.5-1.39 3.43-2.77 1.08-1.59 1.52-3.14 1.55-3.22-.03-.01-2.97-1.14-3-4.56zM14.4 4.13c.78-.95 1.32-2.27 1.17-3.59-1.13.05-2.5.76-3.31 1.7-.72.83-1.36 2.18-1.19 3.47 1.26.1 2.55-.64 3.33-1.58z"/></svg><span><span class="sub">Download on the</span><span class="big">App Store</span></span></a>
+        <a class="btn btn-app" href="mailto:support@munchii.app?subject=Munchii%20iPhone%20launch"><span><span class="sub">Get Munchii on</span><span class="big">iPhone</span></span></a>
         <a class="btn btn-white" href="support.html">Talk to us</a>
       </div>
     </div>
@@ -300,13 +301,13 @@
   <div class="wrap">
     <div class="f-grid">
       <div>
-        <span class="wm on-green">Munchii</span>
-        <p class="tag">Inspired cooking. Scan it, say it or write it — then share what you make.</p>
+        <span class="brand on-dark"><img src="assets/munchii-mark.png" alt="" />munchii</span>
+        <p class="tag">All your saved recipes from friends and chefs in one place.</p>
       </div>
       <div>
         <h4>Product</h4>
         <ul>
-          <li><a href="#features">Features</a></li>
+          <li><a href="#features">What it does</a></li>
           <li><a href="#how">How it works</a></li>
           <li><a href="#screens">Screenshots</a></li>
           <li><a href="#faq">FAQ</a></li>
@@ -318,7 +319,7 @@
         <ul>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms of Use</a></li>
-          <li><a href="community.html">Community Guidelines</a></li>
+          <li><a href="community.html">Recipe &amp; Safety Guidelines</a></li>
           <li><a href="privacy.html#cookies">Cookies</a></li>
         </ul>
       </div>
@@ -327,14 +328,14 @@
         <ul>
           <li><a href="support.html">Help &amp; contact</a></li>
           <li><a href="mailto:support@munchii.app">support@munchii.app</a></li>
-          <li><a href="support.html#report">Report content</a></li>
+          <li><a href="support.html#report">Report a recipe</a></li>
           <li><a href="support.html#delete">Delete your account</a></li>
         </ul>
       </div>
     </div>
     <div class="f-bot">
       <span>© 2026 Munchii. Made for people who cook.</span>
-      <span>www.munchii.app · <a href="mailto:hello@munchii.app">hello@munchii.app</a></span>
+      <span>munchii.app · <a href="mailto:support@munchii.app">support@munchii.app</a></span>
     </div>
   </div>
 </footer>

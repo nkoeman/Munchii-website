@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.munchii.app/sitemap.xml
+Sitemap: https://munchii.app/sitemap.xml

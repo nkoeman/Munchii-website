@@ -1,6 +1,6 @@
 # Munchii Marketing Website
 
-Static HTML and CSS marketing site for Munchii, including Privacy Policy, Terms of Use, Community Guidelines, and Help & Contact pages.
+Static HTML and CSS marketing site for Munchii, including Privacy Policy, Terms of Use, Recipe & Safety Guidelines, and Help & Contact pages.
 
 ## Run Locally
 
@@ -17,4 +17,4 @@ Clean URLs are handled by nginx, so these routes work in the container:
 - `http://localhost:8080/community`
 - `http://localhost:8080/support`
 
-The App Store buttons are placeholders marked with `<!-- TODO: App Store URL -->` in `index.html`.
+Until the official App Store listing URL is confirmed, the iPhone calls to action open an email to `support@munchii.app` rather than sending visitors to a dead or unverified listing.
